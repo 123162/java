@@ -1,0 +1,24 @@
+
+package javaapplication17;
+
+import java.util.Arrays;
+
+public class JavaApplication17 {
+
+    public static void main(String[] args) {
+       //DİZİLERDE ARAMA İŞLEMİ
+       
+       int[] dizi={1,2,3,45,78};
+       Arrays.sort(dizi);//arama yapabilmek için önce dizinin sıralı olması gerek
+       int deger=Arrays.binarySearch(dizi, 45);//45 elamanını arayacagız ve bu sonucu degr degişkenine atatık
+       if(deger<0){//aranan deger dizide değilse negatif degr dondurecek.bizde bunu deger degişkeni - deger dondururse bulunamdı yazacak
+           System.out.println("BULUNAMADI");
+           
+       }
+       else{//eger deger bulunursa;
+           System.out.println("BULUNDU ve indisi:"+deger);
+           
+       }
+    }
+    
+}
