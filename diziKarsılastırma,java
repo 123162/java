@@ -1,0 +1,16 @@
+
+package javaapplication19;
+
+import java.util.Arrays;
+public class JavaApplication19 {
+
+    public static void main(String[] args) {
+        
+        int[] dizi={1,2};
+        int[] dizi1={1,2};
+        System.out.println(Arrays.equals(dizi, dizi1));//dizi ve dizi1 elamanlarını karsılastıyor,aynı ise true,farklı ise false degeri donuyor
+        }
+          
+    
+    
+}
