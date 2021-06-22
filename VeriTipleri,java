@@ -1,0 +1,41 @@
+
+package baslangic;
+
+
+public class Baslangic {
+
+    public static void main(String[] args) {
+        byte abc=120;
+        System.out.println("byte degeri:"+abc);
+        
+        short shortDegiskeni=234;
+        System.out.println("short degeri:"+shortDegiskeni);
+        
+        int intDegiskeni=2300;
+        System.out.println("int degeri:"+intDegiskeni);
+        
+        long longDegiskeni=100000;
+        System.out.println("long degeri:"+longDegiskeni);
+        
+        float floatDegiskeni=43.7f;//java doubl ile floatı bu şeklide ayırt ediyor
+        float floatDegiskeni1=43.7F;
+        float floatDegiskeni2=43;
+        System.out.println("float degeri:"+floatDegiskeni);
+        
+        double doubleDeğişkeni=34;
+        double doubleDeğişkeni1=34.5;//double da kullanmamıza gerek yok
+        System.out.println("double degeri:"+doubleDeğişkeni);
+        
+        char karakter1=112;//112 karakterinin denk geldiği harfi basar ekrana
+        char karakter2='y';
+        System.out.println("char değeri:"+karakter1);
+        
+        boolean booleanDegiskeni=true;// true veya false degeri döndürür.
+        System.out.println("boolean degeri:"+booleanDegiskeni);
+        
+        String str="hello world";
+        System.out.println("string degeri"+str);
+        System.out.println("43"+40);//43 string gibi algılar ve yanına 40 ı yazar direk 
+    }
+    
+}
